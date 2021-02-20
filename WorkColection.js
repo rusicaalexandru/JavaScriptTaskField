@@ -136,4 +136,44 @@
 //     return sum / note.length;
 // }
 // alert(notaMedie());
-//-----------------------------------------------------------------------------
+//----------------------------------------------------------------------------- ArrayTasks(JavaScript.Info)//practice
+/*
+let arr = ["Jazz", "Blues"];
+arr.push("Rock-n-Roll");
+//arr[Math.floor((arr.length - 1) / 2)] = "Classics"; //example
+arr[Math.floor(arr.length/2)] = "Classics";
+//alert(arr);
+arr.shift();
+//alert(arr);
+arr.unshift("Rap", "Reggae");
+alert(arr);
+*/
+/*
+let arr1 = ["Car", "Space", "Ball"];
+let arr2 = ["apple", "orange"];
+arr1 = arr2;
+arr1.push("Bannana")
+alert(arr1);
+*/
+
+/*for (let i = 0; i < 10; i++){ // == arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    arr.push(arr.length+1);
+}*/
+
+/*
+arr.shift(); //take first
+arr.pop(); //take last
+
+arr.unshift(FlyLy); //add to the begining
+arr.push(FlyLy); // add to the end
+*/
+
+//alert( String(arr) === '1,2,3' ); // true
+/*while (true){
+    input = (Number(prompt("Entera number :")));
+    arr.push(input);
+    sum += input;
+    if(input == "null" || input == null || input == "" ){
+        break;
+    }
+}*/
