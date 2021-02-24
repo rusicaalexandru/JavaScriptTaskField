@@ -12,7 +12,9 @@ let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 ["Bilbo", "Gandalf", "Nazgul"].forEach((item, index, array) => {
   alert(`${item} is at index ${index} in ${array}`);
 });
+*/
 /*
+//--------
 const users = [
   {id: 1, name: "Fly"},
   {id: 2, name: "Space"},
@@ -22,4 +24,17 @@ const users = [
 let user = users.find(item => item.id == 3);
 
 alert(user.name); // Eren
+*/
+/*
+//--------
+let users = [
+    { id: 1, name: "Johny" },
+    { id: 2, name: "Peter" },
+    { id: 3, name: "Harly" }
+];
+
+// returns array of the first two users
+let someUsers = users.filter(item => item.id < 3);
+
+alert(someUsers.length); // 2
 */
