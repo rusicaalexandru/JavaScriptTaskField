@@ -1,5 +1,6 @@
 //acasa lucru cu funct de la array
-let arr = [1,2,3,4,5,6,7,8,9];
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
 //----splice/slice
 //arr.splice(3,2);
 //arr.splice(0, 1, "Space", "fly");
@@ -11,4 +12,14 @@ let arr = [1,2,3,4,5,6,7,8,9];
 ["Bilbo", "Gandalf", "Nazgul"].forEach((item, index, array) => {
   alert(`${item} is at index ${index} in ${array}`);
 });
+/*
+const users = [
+  {id: 1, name: "Fly"},
+  {id: 2, name: "Space"},
+  {id: 3, name: "Eren"}
+];
+
+let user = users.find(item => item.id == 3);
+
+alert(user.name); // Eren
 */
