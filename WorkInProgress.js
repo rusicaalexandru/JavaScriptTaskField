@@ -38,3 +38,14 @@
 //const studentCount = prompt("How many students you will insert?");
 
 //-------------------------------------------------------------------------------------------------Ex3.8
+const colors = ["red", "green", "blue"];
+const checkColor = (color) => {
+    for (const col of colors){
+        if (color == col){
+            return colors.indexOf(color);
+        }
+    }
+    return -1
+}
+console.log(checkColor("red"));
+//-------------------------------------------------------------------------------------------------Ex3.9
