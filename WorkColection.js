@@ -218,4 +218,103 @@ let someUsers = users.filter(item => item.id < 3);
 
 alert(someUsers.length); // 2
 */
-//-----------------------------------------------------------------------------Tema de acasa
+//-----------------------------------------------------------------------------Tema de acasa / lucru in clasa
+//-------------------------------------------------------------------------------------------------Ex3.2 Unfinished minimum 5 studenti, minim 4 note
+// for (let i = 0; i < studentCount; i++) {
+//     const studentName = prompt("Introduce student name!");
+//     const gradeCount = prompt("How many grades student have?");
+//     const studentGrades = [];
+//     for (let o = 0; o < gradeCount; o++) { // add grades
+//         studentGrades.push(+prompt("enter the grade"));
+//     }
+//     const medie = studentGrades.reduce((acc, val) => acc + val) / studentGrades.length; // calculate the sum of the grades and divide it by gradelds lenght
+//     students.push({ Name: studentName, Medie: medie, Grades: studentGrades }); //push information to the array(students)
+//
+// }
+// //-----------
+// //students.push({ Name: "Dorin", Medie: 6, Grades: [3, 4, 5, 7, 8] }); //push information to the array(students) // used for tests
+// //students.push({ Name: "Marin", Medie: 3, Grades: [3, 4, 5, 7, 8] }); //push information to the array(students) // used for tests
+// //students.push({ Name: "Peter", Medie: 4, Grades: [3, 4, 5, 7, 8] }); //push information to the array(students) // used for tests
+// //students.push({ Name: "Sort", Medie: 8, Grades: [3, 4, 5, 7, 8] }); //push information to the array(students)  // used for tests
+//
+// students.map(stud => { //show name and grades
+//     console.log("Name :" + stud.Name + "\nNota medie :" + stud.Medie + "\nNotele :" + stud.Grades);
+// });
+// console.log("----------------------------------------------------------");
+// students.map(stud => { // log student with grade <= 5
+//     if (stud.Medie <= 5) {
+//         console.log("Studentul cu nota mai mica sau egala cu 5 : \n" + stud.Name + " cu media : " + stud.Medie);
+//     }
+// });
+// console.log("----------------------------------------------------------");
+
+// students.sort((a, b) => a.Medie - b.Medie); // biggest grade and the lowest
+// console.log(`Cea mai mica Medie si cea mai mare Medie : \n ${students[0].Medie} ${students[0].Name} \n ${students[students.length - 1].Medie} ${students[students.length - 1].Name}`);
+// console.log(students.reverse()); // Descendent by Medie
+
+// //Media of an student is bigger than Media of the entier class
+// const medieClass = () => {
+//     let sum = 0;
+//     for (st of students) {
+//         sum += st.Medie;
+//     }
+//     return sum / students.length;
+// }
+// students.map(stud => {
+//     if (stud.Medie <= medieClass()) {
+//         console.log("Studentii cu nota mai mare ca media clasei este " + stud.Name + "Cu media de :" + stud.Medie);
+//     }
+// });
+//-------------------------------------------------------------------------------------------------Ex3.3
+// let styles = ["Джаз", "Блюз"];
+// console.log(styles);
+// styles.push("Рок-н-ролл");
+// console.log(styles);
+// styles.splice(styles.length / 2, 1, "Классика");
+// console.log(styles);
+// styles.shift(1);
+// console.log(styles);
+// styles.splice(0, 0, "Рэп", "Регги")
+// console.log(styles);
+//-------------------------------------------------------------------------------------------------Ex3.4 Unfinished if 0 add to list and contiue (stop on string, cancel)
+// let arr = [];
+// const sumInputNumbers = () => {
+//     let sum = 0;
+//     while (true) {
+//         const input = (+prompt("Entera number :"));
+//         if (input == "null" || input == null || input == "") {
+//             return sum / arr.length;
+//             break;
+//         }
+//         arr.push(input);
+//         sum += input;
+//     }
+// }
+
+// console.log(arr);
+// console.log(sumInputNumbers());
+//-------------------------------------------------------------------------------------------------Ex3.5
+// const square = (x) => {
+//     return x * x;
+// }
+// const arr = [1,2,3,4,5,6];
+// const convert = (fn, array) => {
+//     return array.map(num => fn(num));
+//
+// }
+// console.log(convert(square, [1, 2, 3, 4])); // [1, 4, 9, 16]
+// console.log(convert(square, arr));
+// console.log(arr);
+//-------------------------------------------------------------------------------------------------Ex3.6
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const func = (array) => {
+//     array.splice(4,1, 0,0,0);
+//     return array;
+// }
+// console.log(func(arr));
+//-------------------------------------------------------------------------------------------------Ex3.7
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const showArray = (numStart, numEnd, array) => {
+//     return array.slice(numStart-1, numEnd);
+// }
+// console.log(showArray(2,4, arr));

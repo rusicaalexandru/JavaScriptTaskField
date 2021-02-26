@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="745b88a9-8322-4008-baab-bb38dadf68df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkColection.js" beforeDir="false" afterPath="$PROJECT_DIR$/WorkColection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WorkInProgress.js" beforeDir="false" afterPath="$PROJECT_DIR$/WorkInProgress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,7 @@
       <workItem from="1613932618424" duration="2021000" />
       <workItem from="1613934753279" duration="613000" />
       <workItem from="1613974279130" duration="6335000" />
+      <workItem from="1614328618864" duration="7879000" />
     </task>
     <servers />
   </component>
@@ -58,10 +61,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1613934364369">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1614338185047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613934364369" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614338185047" />
     <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1613839301810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -126,10 +129,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613839301812" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1613760933508">
+    <state x="645" y="148" key="SettingsEditor" timestamp="1614339708540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613760933508" />
+    <state x="645" y="148" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614339708540" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1613764233504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
