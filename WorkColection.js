@@ -219,6 +219,40 @@ let someUsers = users.filter(item => item.id < 3);
 alert(someUsers.length); // 2
 */
 //-----------------------------------------------------------------------------Tema de acasa / lucru in clasa
+//-------------------------------------------------------------------------------------------------Ex3.1
+// const howManyNumbers = prompt("How many numbers you will insert?");
+// let arr = [];
+// for (let i = 0; i < howManyNumbers; i++) { //Add numbers to array arr
+//     arr.push(prompt(`Insert number ${i+1}`)); //+1 to start counting at 1 instead of 0
+// }
+//output for :
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
+//output while :
+// let i = 0;
+// while (i != arr.length) {
+//     console.log(arr[i]);
+//     i++;
+// }
+//output do While :
+// let i = 0;
+// do {
+//     console.log(arr[i]);
+//     i++
+// } while (i != arr.length)
+//output for in :
+// for (let element in arr) {
+//     console.log(arr[element]);
+// }
+//output for of :
+// for (let element of arr) {
+//     console.log(element);
+// }
+//output ForEach :
+//arr.forEach(element => console.log(element));
+//output Map :
+//const mapArr = arr.map(elem => console.log(elem));
 //-------------------------------------------------------------------------------------------------Ex3.2 Unfinished minimum 5 studenti, minim 4 note
 // for (let i = 0; i < studentCount; i++) {
 //     const studentName = prompt("Introduce student name!");

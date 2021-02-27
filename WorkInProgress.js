@@ -37,3 +37,13 @@
 //let students = [];
 //const studentCount = prompt("How many students you will insert?");
 
+//-------------------------------------------------------------------------------------------------Ex6.1
+const Persone = (name, surname) => {
+    return {
+        name, // same as name: name
+        surname,
+    };
+}
+const pers = Persone("Fred ", "Lazofsky");
+console.log(pers);
+//-------------------------------------------------------------------------------------------------Ex6.2
