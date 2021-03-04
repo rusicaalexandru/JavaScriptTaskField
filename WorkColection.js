@@ -373,3 +373,38 @@ alert(someUsers.length); // 2
 // arr.sort((a,b) => a-b)
 // console.log(uniqueSorted(arr));
 //-------------------------------------------------------------------------------------------------Ex6
+//-------------------------------------------------------------------------------------------------Ex6.1
+// const user = {};
+// user.name = "Jhon";
+// user.surName = "Smith";
+// user.name = "Pete";
+// delete user.name;
+// console.log(user.name)
+//-------------------------------------------------------------------------------------------------Ex6.2
+// const salaries = {
+//     John: 100,
+//     Ann: 160,
+//     Pete: 130
+// }
+//
+// const calculate = () => {
+//     let sum = 0;
+//     for (a of Object.values(salaries)){
+//         sum += a;
+//     }
+//     return sum;
+// }
+// console.log(calculate());
+//-------------------------------------------------------------------------------------------------Ex6.3 // not ready
+// multiplyNumeric = (obj) => {
+//
+// }
+//
+// // до вызова функции
+// let menu = {
+//     width: 200,
+//     height: 300,
+//     title: "My menu"
+// };
+// console.log(multiplyNumeric(menu));
+//-------------------------------------------------------------------------------------------------Next tasks would be in branches
