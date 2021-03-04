@@ -13,3 +13,24 @@
 // console.log(person.name);
 // console.log(person.surName);
 //----------------------------------------------------------Ex6.2
+class Persone {
+    constructor(name, surname) {
+        this.name = name;
+        this.surname = surname;
+    }
+    getName(){
+        return this.name
+    }
+    getSurname(){
+        return this.surname
+    }
+    setSurname(_surname){
+        this.surname = _surname;
+        return _surname;
+    }
+}
+const worker = new Persone("Ivan", "Ivanov");
+console.log(worker.getName());
+console.log(worker.getSurname());
+console.log(worker.setSurname("Petrov"));
+console.log(worker.getSurname());
