@@ -12,19 +12,18 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     //----------------------------------------------------------------------7.4
-    let i = 0;
+
     for (let i = 1; i <= 20; i++){
         setTimeout(() => {
             const node = document.createElement("LI");
             const textnode = document.createTextNode(`${i}`);
             node.appendChild(textnode);
-            const olList = document.getElementById("olListId").appendChild(node);
+            document.getElementById("olListId").appendChild(node);
             if(i % 2 === 0) {
                 node.style.backgroundColor = "green";
             } else {
                 node.style.backgroundColor = "purple";
             }
-            i++;
         }, 2000)
     }
 });
