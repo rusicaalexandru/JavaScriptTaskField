@@ -9,33 +9,28 @@ document.addEventListener("DOMContentLoaded", () => {
         text.style.display = "none";
     }
     });
-    //-----------------------------------------------------------------------------
-    // let price = document.getElementById("final_price").innerText;
-    // let list = document.addEventListener("change", () => {
-    //     let temp = document.getElementById("options");
-    //     let temp2 = temp.getElementsByTagName("li").namedItem();
-    //     console.log(temp1);
-    //     console.log(temp2);
-    //     //price =
-    // });
-    //console.log(price)
-    //let inputs = document.querySelectorAll('input[name]');
-
-    let price = 0;
+    //----------------------------------------------------------------------------- Calculate price
+    let finalPrice = 0;
     let priceCash = [];
-    refresh()
+    refreshPrice = () => { //function to calculate final price
+        finalPrice = 0;
+        document.querySelectorAll("input[name]:checked").forEach(elem => {
+            priceCash.push(elem.value)
+            finalPrice += +elem.value;
+            console.log(elem.value)
+        });
+        console.log("Final Price will be : " + finalPrice);
+        document.getElementById("final_price").innerText = finalPrice + "$";
+    }
+    refreshPrice() //on page load show default ingredients pizza price
     document.addEventListener("input", () => {
         console.clear();
-        refresh()
+        refreshPrice();
+
+
     });
-    //console.log(price);
+    //finalPrice = priceCash.reduce()
 
 });
 
-refresh = () => {
-    document.querySelectorAll("input[name]:checked").forEach(elem => {
-        priceCash.push(elem.value)
-        //price += +elem.value;
-        console.log(elem.value)
-    });
-}
+

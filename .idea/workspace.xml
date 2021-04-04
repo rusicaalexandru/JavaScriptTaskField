@@ -45,14 +45,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptTaskField/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptTaskField/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,7 +77,8 @@
       <workItem from="1616663377645" duration="611000" />
       <workItem from="1616664030737" duration="286000" />
       <workItem from="1616664388066" duration="251000" />
-      <workItem from="1616947618825" duration="8126000" />
+      <workItem from="1616947618825" duration="8835000" />
+      <workItem from="1617521398363" duration="2647000" />
     </task>
     <servers />
   </component>
