@@ -1,0 +1,14 @@
+{
+  "tip_blat": [
+        {
+          "gros": {"price": 20},
+          "subtire": {"price": 15}
+        }
+      ],
+  "forma_blat": [{
+    "rotunda": {"price": 15},
+    "ovala": {"price": 20}
+    }
+  ]
+}
+
