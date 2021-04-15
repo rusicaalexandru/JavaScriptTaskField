@@ -11,25 +11,25 @@
 <body>
     <ul id="container">
         <li>
-            <input type="radio" name="language" value="1" id="TEP_javascript">
+            <input type="radio" name="language" value="1" id="TEP_javascript" v-model="coeficient">
             <label for="TEP_javascript">JavaScript</label>
         </li>
         <li>
-            <input type="radio" name="language" value="0.7" id="TEP_python">
+            <input type="radio" name="language" value="0.7" id="TEP_python" v-model="coeficient">
             <label for="TEP_python">Python</label>
         </li>
         <li>
-            <input type="radio" name="language" value="1.3" id="TEP_java">
+            <input type="radio" name="language" value="1.3" id="TEP_java" v-model="coeficient">
             <label for="TEP_java">Java</label>
         </li>
         <li>
             <span>Experience</span>
-            <input type="number">
+            <input type="number" v-model="experience">
             <span>: Years</span>
         </li>
         <li>
             <span>Answer :</span>
-            <span v-model="answer">t</span>
+            <span v-if="salarry >= 0">{{salarry}}</span>
         </li>
     </ul>
 
