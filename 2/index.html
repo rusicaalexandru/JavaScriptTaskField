@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <ul id="container">
+        <li>
+            <input type="radio" name="language" value="1" id="TEP_javascript">
+            <label for="TEP_javascript">JavaScript</label>
+        </li>
+        <li>
+            <input type="radio" name="language" value="0.7" id="TEP_python">
+            <label for="TEP_python">Python</label>
+        </li>
+        <li>
+            <input type="radio" name="language" value="1.3" id="TEP_java">
+            <label for="TEP_java">Java</label>
+        </li>
+        <li>
+            <span>Experience</span>
+            <input type="number">
+            <span>: Years</span>
+        </li>
+        <li>
+            <span>Answer :</span>
+            <span v-model="answer">t</span>
+        </li>
+    </ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

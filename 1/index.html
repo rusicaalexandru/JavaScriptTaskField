@@ -10,9 +10,10 @@
 
 <body>
     <div id="container">
-
+        {{username}}
+        <input type="date" v-model="date">
+        <span v-if="calculateAge>=0">{{calculateAge}}</span>
     </div>
-
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
     <script src="index.js"></script>
