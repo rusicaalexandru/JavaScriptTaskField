@@ -11,9 +11,26 @@
       "ovala": {"price": 20}
     }
   ],
-  "tip_pizza": [{
-    "rancho": {"price": 50},
-    "capricioasa": {"price": 35}
-  }]
+  "tip_pizza": [
+    {
+      "rancho": {"price": 50},
+      "capricioasa": {"price": 35}
+    }
+  ],
+  "size_pizza" : [
+    {
+      "mica": {"price": 15},
+      "mediu": {"price": 30},
+      "mare": {"price": 50}
+    }
+  ],
+  "adaugator" : [
+    {
+      "cascaval": {"price": 10},
+      "piper": {"price": 8},
+      "salami": {"price": 18},
+      "ciuperci": {"price": 13}
+    }
+  ]
 }
 

@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     //----------------------------------------------------------------------------- Calculate price
     let finalPrice = 0;
-    let discount = 50;
+    let discount = 0;
     let codPromotional = 0; // to do - Insert a promotional code
     refreshPrice = () => { //function to calculate final price
         finalPrice = 0;
