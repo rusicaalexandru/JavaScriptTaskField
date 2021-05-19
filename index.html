@@ -2,97 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
-    <title>Document</title>
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">-->
 </head>
-<!-- Varianta 3. Configurator pentru comanda Pizza -->
 <body>
-    <div id="configurator">
-        <div id="options">
-            <ul id="ingrediance">
-                <li>
-                    <label>Tipul de blat(gros sau subțire)</label>
-                </li>
-                <li>
-                    <input type="radio" name="tip_blat" value="20" id="TEP_gros" checked>
-                    <label for="TEP_gros">Gros</label>
-                </li>
-                <li>
-                    <input type="radio" name="tip_blat" value="15" id="TEP_subtire">
-                    <label for="TEP_subtire">Subtire</label>
-                </li>
-                <!-- ------------------------------------------------------------ -->
-                <li>
-                    <label>Forma blatului (rotundă sau ovală)</label>
-                </li>
-                <li>
-                    <input type="radio" name="forma_blat" value="15" id="TEP_rotunda"checked>
-                    <label for="TEP_rotunda">Rotundă</label>
-                </li>
-                <li>
-                    <input type="radio" name="forma_blat" value="20" id="TEP_ovala">
-                    <label for="TEP_ovala">Ovală</label>
-                </li>
-                <!-- ------------------------------------------------------------ -->
-                <li>
-                    <label>Tipul de pizza (Capriciossa, Rancho etc.)</label>
-                </li>
-                <li>
-                    <input type="radio" name="tip_pizza" value="50" id="TEP_rancho" checked>
-                    <label for="TEP_rancho">Rancho</label>
-                </li>
-                <li>
-                    <input type="radio" name="tip_pizza" value="35" id="TEP_capricioasa">
-                    <label for="TEP_capricioasa">Capricioasa</label>
-                </li>
-                <!-- ------------------------------------------------------------ -->
-                <li>
-                    <label>Mărimea (mica, medie, mare)</label>
-                </li>
-                <li>
-                    <input type="radio" name="size_pizza" value="15" id="TEP_mica" checked>
-                    <label for="TEP_mica">Mica</label>
-                </li>
-                <li>
-                    <input type="radio" name="size_pizza" value="30" id="TEP_mediu">
-                    <label for="TEP_mediu">Mediu</label>
-                </li>
-                <li>
-                    <input type="radio" name="size_pizza" value="50" id="TEP_mare">
-                    <label for="TEP_mare">Mare</label>
-                </li>
-                <!-- ------------------------------------------------------------ (more options checkbox / additional) -->
-                <li>
-                    <input type="checkbox" name="adaugator" value="0" id="adaugator">
-                    <label for="adaugator">Ingredientelor adăugătoare</label>
-                </li>
-                <!-- ------------------------------------------------------------ -->
-            </ul>
-            <ul id="aditionalIngredience">
-                <li class="aditionalIngredience">
-                    <input type="checkbox" name="adaugator" value="10" id="TEP_cascaval_dublu">
-                    <label for="TEP_cascaval_dublu">Cascaval dublu</label>
-                </li>
-                <li class="aditionalIngredience">
-                    <input type="checkbox" name="adaugator" value="8" id="TEP_piper_adaugator">
-                    <label for="TEP_piper_adaugator">Piper adaugator</label>
-                </li>
-                <li class="aditionalIngredience">
-                    <input type="checkbox" name="adaugator" value="18" id="TEP_salami_adaugator">
-                    <label for="TEP_salami_adaugator">Salami adaugator</label>
-                </li>
-                <li class="aditionalIngredience">
-                    <input type="checkbox" name="adaugator" value="13" id="TEP_ciuperci_adaugatoare">
-                    <label for="TEP_ciuperci_adaugatoare">Ciuperci adaugatoare</label>
-                </li>
-            </ul>
+
+<div class="container">
+    <select id="pizza-select" style="width: 200px; height: 40px; font-size: 20px"></select>
+    <div id="ingredience">
+        <ul id="config">
+            <li>
+                <label>tipul de blat(gros sau subțire)</label>
+                <ul id="tipul_de_blat">
+
+                </ul>
+            </li>
+            <li>
+                <label>forma blatului (rotundă sau ovală)</label>
+                <ul id="forma_Blatului">
+
+                </ul>
+            </li>
+            <li>
+                <label>mărimea (mini, normală, maxi)</label>
+                <ul id="marimea">
+
+                </ul>
+            </li>
+            <li>
+                <ul id="aditionalIngredience">
+
+                </ul>
+            </li>
+        </ul>
+        <div id="priceForTempl">
             <h3>Price : </h3>
             <span id="final_price">0$</span>
             <span id="discount_%">0%</span>
         </div>
+        <button type="button">Add</button>
     </div>
-    <script src="scripts/index.js"></script>
+
+</div>
+<div class="listContainer">
+    <ul id="pizzaList">
+
+    </ul>
+</div>
+<script src="src/scripts/main.js"></script>
 </body>
 </html>

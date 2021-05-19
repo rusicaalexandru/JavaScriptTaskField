@@ -6,23 +6,15 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="745b88a9-8322-4008-baab-bb38dadf68df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Utils/DBIngredience.json" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Utils/DBIngredience.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/index.js" afterDir="false" />
+    <list default="true" id="c222ec5f-c615-46f2-ac4c-c4e9f13b3b3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/pizzaTemplate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,70 +24,44 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ogktyUHiye75VPdO4JSSKvjFUI" />
+  <component name="ProjectId" id="1skoM1gmndd1h1htSbkcTxIMy33" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\JavaProjects\ProgrTesting\JavaScriptTaskField" />
+      <recent name="C:\Users\aalex\Desktop\web_pizza\src\scripts" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptTaskField/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="745b88a9-8322-4008-baab-bb38dadf68df" name="Default Changelist" comment="" />
-      <created>1613715839649</created>
+      <changelist id="c222ec5f-c615-46f2-ac4c-c4e9f13b3b3a" name="Default Changelist" comment="" />
+      <created>1621425896917</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1613715839649</updated>
-      <workItem from="1613715840656" duration="10296000" />
-      <workItem from="1613829427168" duration="5686000" />
-      <workItem from="1613838395706" duration="3037000" />
-      <workItem from="1613852044079" duration="638000" />
-      <workItem from="1613894985087" duration="1196000" />
-      <workItem from="1613932618424" duration="2021000" />
-      <workItem from="1613934753279" duration="613000" />
-      <workItem from="1613974279130" duration="6335000" />
-      <workItem from="1614328618864" duration="14545000" />
-      <workItem from="1614361063577" duration="2654000" />
-      <workItem from="1614405587195" duration="2326000" />
-      <workItem from="1614413235357" duration="1493000" />
-      <workItem from="1614428901093" duration="1954000" />
-      <workItem from="1614443578904" duration="3631000" />
-      <workItem from="1614516870025" duration="339000" />
-      <workItem from="1614585897689" duration="331000" />
-      <workItem from="1614855874817" duration="13597000" />
-      <workItem from="1616663377645" duration="611000" />
-      <workItem from="1616664030737" duration="286000" />
-      <workItem from="1616664388066" duration="251000" />
-      <workItem from="1616947618825" duration="8835000" />
-      <workItem from="1617521398363" duration="5401000" />
-      <workItem from="1617808868646" duration="1258000" />
-      <workItem from="1617811155537" duration="10459000" />
-      <workItem from="1617858834836" duration="384000" />
-      <workItem from="1618381548437" duration="2810000" />
+      <updated>1621425896917</updated>
+      <workItem from="1621425898043" duration="580000" />
+      <workItem from="1621426693884" duration="6446000" />
+      <workItem from="1621434412403" duration="5659000" />
     </task>
     <servers />
   </component>
@@ -115,89 +81,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="702" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617816085453">
+    <state x="707" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621425999646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="702" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617816085453" />
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1617810578630">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617810578630" />
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1614412589251">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614412589251" />
-    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1614412589251">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614412589251" />
-    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1614412589251">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614412589251" />
-    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1614412589251">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614412589251" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1614412589251">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614412589251" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1614412589251">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614412589251" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1614412589251">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614412589251" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1614412589251">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614412589251" />
-    <state width="1899" height="348" key="GridCell.Tab.2.bottom" timestamp="1614412589252">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614412589252" />
-    <state width="1899" height="348" key="GridCell.Tab.2.center" timestamp="1614412589252">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614412589252" />
-    <state width="1899" height="348" key="GridCell.Tab.2.left" timestamp="1614412589251">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614412589251" />
-    <state width="1899" height="348" key="GridCell.Tab.2.right" timestamp="1614412589252">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614412589252" />
-    <state width="1899" height="348" key="GridCell.Tab.3.bottom" timestamp="1614412589252">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614412589252" />
-    <state width="1899" height="348" key="GridCell.Tab.3.center" timestamp="1614412589252">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614412589252" />
-    <state width="1899" height="348" key="GridCell.Tab.3.left" timestamp="1614412589252">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614412589252" />
-    <state width="1899" height="348" key="GridCell.Tab.3.right" timestamp="1614412589252">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614412589252" />
-    <state x="645" y="148" key="SettingsEditor" timestamp="1617811113937">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="645" y="148" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617811113937" />
-    <state x="681" y="261" width="540" height="524" key="StructurePopup" timestamp="1616955023973">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="681" y="261" width="540" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1616955023973" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1617811551327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617811551327" />
+    <state x="707" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1621425999646" />
   </component>
 </project>

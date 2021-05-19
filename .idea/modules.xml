@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/JavaScriptTaskField.iml" filepath="$PROJECT_DIR$/.idea/JavaScriptTaskField.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/web_pizza.iml" filepath="$PROJECT_DIR$/.idea/web_pizza.iml" />
     </modules>
   </component>
 </project>
