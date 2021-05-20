@@ -10,9 +10,11 @@ let pizzaList = [
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
-loadContent();
-
-});
+    loadContent();
+    document.getElementById("customeButton").addEventListener("click", () =>{
+        createCustomePizza();
+    });
+})
 const loadContent = () => {
     const container = document.getElementById("container");
     let id = 1;
@@ -36,4 +38,7 @@ const loadContent = () => {
         id++;
         container.append(el);
     }
+}
+const createCustomePizza = () => {
+    
 }

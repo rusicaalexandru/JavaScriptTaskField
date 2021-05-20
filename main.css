@@ -42,9 +42,8 @@ body{
 .itemFooterimg{
     height: 100%;
 }
-#newButton{
+#customeButton{
     padding: 5px;
-    width: 80px;
 }
 h4{
     background: bisque;
