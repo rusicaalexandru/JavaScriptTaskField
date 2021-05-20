@@ -7,31 +7,35 @@
 body{
     padding: 10px;
     background: grey;
-    display: grid;
-    grid-template-columns: 2fr 5fr;
-}
-header{
-    width: 100%;
-    background: coral;
-    min-height: 80px;
-}
-#ingredience{
-    border: 2px solid black;
-}
-#ingredience ul{
-    border-bottom: black solid 1px;
 }
 
-#ingredience ul li{
-    padding: 5px;
+.item{
+    margin: 25px;
+    border: solid 1px black;
+    width: 250px;
+    background: darkslateblue;
+
+    display: inline-block;
 }
-.listContainer{
-    min-height: 200px;
-    min-width: 200px;
-    background: aqua;
+.item img {
+    width: 100%;
+}
+.itemFooter{
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    background: darkgray;
+}
+
+.itemFooter button{
+    height: 30px;
+    background: forestgreen;
+}
+.itemFooter button:hover {
+    background: darkgreen;
+}
+#container{
     text-align: center;
 }
-#priceForTempl{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.itemFooterimg{
+    height: 100%;
 }
