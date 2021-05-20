@@ -20,6 +20,9 @@ body{
 .item img {
     width: 100%;
 }
+.itemimg{
+    height: 180px;
+}
 .itemFooter{
     display: grid;
     grid-template-columns: 7fr 1fr;

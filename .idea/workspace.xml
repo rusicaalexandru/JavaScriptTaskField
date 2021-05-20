@@ -15,7 +15,6 @@
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/pizzaTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/pizzaTemplate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <workItem from="1621425898043" duration="580000" />
       <workItem from="1621426693884" duration="6446000" />
       <workItem from="1621434412403" duration="5659000" />
-      <workItem from="1621507865029" duration="7520000" />
+      <workItem from="1621507865029" duration="8334000" />
     </task>
     <servers />
   </component>

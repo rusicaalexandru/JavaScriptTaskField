@@ -8,11 +8,11 @@ for( let i=1;i <=5; i++)
     el.className ="item";
     el.id = "card" + i;
     el.innerHTML = `
-        <img src="src/img/${i}.jpg" alt="pizza">
+        <img src="src/img/${i}.jpg" alt="pizza" class="itemimg">
         <div class="itemFooter">
             <button>Buy</button>
             <button>
-                <img src="src/img/${"add+to+cart.png"}" alt="add to cart" class="itemFooterimg">
+                <img src="src/img/add+to+cart.png" alt="add to cart" class="itemFooterimg">
             </button>
             </div>
     `;
