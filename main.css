@@ -13,7 +13,7 @@ body{
     margin: 25px;
     border: solid 1px black;
     width: 250px;
-    background: darkslateblue;
+    background: aquamarine;
 
     display: inline-block;
 }
@@ -36,9 +36,16 @@ body{
 .itemFooter button:hover {
     background: darkgreen;
 }
-#container{
+.container, #container{
     text-align: center;
 }
 .itemFooterimg{
     height: 100%;
+}
+#newButton{
+    padding: 5px;
+    width: 80px;
+}
+h4{
+    background: bisque;
 }
