@@ -3,7 +3,6 @@
     margin: 0;
     list-style: none;
 }
-
 body{
     padding: 10px;
     background: grey;
@@ -47,4 +46,15 @@ body{
 }
 h4{
     background: bisque;
+}
+#pizzaForm{
+    border-radius: 30px;
+    height: 700px;
+    width: 500px;
+    text-align: center;
+    background: bisque;
+    position: absolute; /* or absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
