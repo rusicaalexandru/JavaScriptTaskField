@@ -1,3 +1,4 @@
+
 let pizzaList = [
     {name:"peperoni",price:80},
     {name:"pasta",price:85},
@@ -61,46 +62,66 @@ const loadContent = () => {
     }
 }
 const createCustomePizza = () => {
-    const container = document.getElementById("pizzaForm");
-    customPizzaPrice = 0;
+    const container = document.getElementById("pizzaUl");
     //
     custIngr(pizTipBlat, container);
     custIngr(pizFormBlat, container);
     custIngr(pizType, container);
     custIngr(pizSize, container);
     //
-    customPizzaPrice = 0;
+    //===============================================================================
+    let customPizzaPrice = 0;
     let price = document.createElement("p");
-    price.innerHTML = `${customPizzaPrice}$`
+    //calculate the final price of cust pizza
+    const priceList = container.getElementsByClassName("inpColection");
+    console.log(priceList);//-----------
+    price.innerHTML = `0 $`//initialise with 0
+    container.addEventListener("change", () => {
+        customPizzaPrice = "";
+        for (let inp of priceList){
+            if (inp.checked){
+                customPizzaPrice += +inp.value;
+            }
+        }
+        price.innerHTML = `${customPizzaPrice} $`//final price of custom pizza
+    });
+
+    //===============================================================================
     let button = document.createElement("button");
     button.id = "order"
-    button.innerHTML = `
-    Order
-    `;
+    button.innerHTML = `Order`;
+
     container.append(price, button)
     customPizza.push()
 }
 const moveToCart = (item) => {
 
 }
+
+
+
+
+
+
+let type = 0;
 const custIngr = (list, container) => {
     id = 1;
     for(const i of list) //spawn elements from DB of pizzas for blat style
     {
-        let el = document.createElement("ul");
-        //el.className ="";
+        let el = document.createElement("li");
         el.id = "pizzaLi" + id;
         el.innerHTML = `
-        <li style="">
+        
             <div class="">
-                <label for="${i.name + id}">${i.name}</label>
-                <input type="radio" id="${i.name + id}" name="tipul_blat" value="${i.name}">
+                <label class="form-check-label" for="${i.name + id}">${i.name}</label>
+                <input class="form-check-input inpColection" type="radio" id="${i.name + id}" name="${type}" value="${i.price}">
                 ${i.price}$
             </div>
-        </li>
+
         `;
         id++;
         container.append(el);
     }
+    type++;
     container.append(document.createElement("br"))//space betwen choses
 }
