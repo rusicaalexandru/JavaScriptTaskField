@@ -3,6 +3,11 @@
     margin: 0;
     list-style: none;
 }
+img{
+    width: 353px;
+    height: 200px;
+    overflow: hidden;
+}
 body{
     padding: 10px;
     background: grey;
@@ -47,22 +52,23 @@ body{
 h4{
     background: bisque;
 }
-#pizzaForm{
+/*#pizzaForm{
     overflow: hidden;
     border-radius: 30px;
     height: 700px;
     width: 500px;
     text-align: center;
     background: bisque;
-    position: absolute; /* or absolute */
+    position: absolute; !* or absolute *!
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+}*/
+/*
 #pizzaForm div{
     background: beige;
     padding: 5px;
 }
 .borderBot{
     margin-bottom: 5px;
-}
+}*/
