@@ -48,6 +48,7 @@ h4{
     background: bisque;
 }
 #pizzaForm{
+    overflow: hidden;
     border-radius: 30px;
     height: 700px;
     width: 500px;
@@ -57,4 +58,11 @@ h4{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+#pizzaForm div{
+    background: beige;
+    padding: 5px;
+}
+.borderBot{
+    margin-bottom: 5px;
 }
