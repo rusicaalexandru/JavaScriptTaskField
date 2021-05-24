@@ -28,16 +28,30 @@ let pizSize = [
 ];
 let customPizza = [{}];
 let cart = [];//===================================================================================================================
-document.addEventListener("DOMContentLoaded", () => {
-    loadContent();
+document.addEventListener("DOMContentLoaded", async () => {
+    await loadContent();
+
     //createCustomePizza();
     document.getElementById("customeButton").addEventListener("click", () =>{ //temp
         createCustomePizza();
     });
     //add to cart
-    let items = document.getElementsByClassName("addToCartDBPizza");
+    let items = document.querySelectorAll(".addToCartDBPizza");
+    //console.log(items)
+    items.forEach(elem => {
+        elem.addEventListener("click", (e) =>{
+            const nod = e.target;
+            // console.log(nod.parentNode.parentNode.parentNode.id) //push pizza id
+            cart.push(pizzaList[nod.parentNode.parentNode.parentNode.id-1]) //push pizza id
+            console.log(cart)
 
-})
+        });
+    });
+    document.getElementById("htmlCART").addEventListener("click", () =>{
+       //show cart
+        
+    });
+});
 isClear = true;//to fix dublicates of ingridience on second opening of custum
 let pizzaID = 1;
 const loadContent = () => {
@@ -46,14 +60,14 @@ const loadContent = () => {
     {
         let el = document.createElement("div");
         el.className = "item";
-        el.id = "item" + pizzaID;
-        i.pid = pizzaID;
+        el.id = pizzaID;
+        //i.pid = pizzaID;
         el.innerHTML = `
         <h3>${i.name}</h3>
         <img src="src/img/${i.name + pizzaID}.jpg" alt="pizza" class="itemimg">
         <div class="itemFooter">
             <button>
-                <h3>Buy</h3>
+                <h3>${i.price}</h3>
             </button>
             <button id="cart${+pizzaID}" class="addToCartDBPizza">
                 <img src="src/img/add+to+cart.png" alt="add to cart" class="itemFooterimg">
@@ -99,26 +113,14 @@ const createCustomePizza = () => {
         buttonclose.innerHTML = `Cancel`;
 
         container.append(price, button, buttonclose)
-
-        //moveToCart(pizzaCust);
     }
     document.getElementById("cancelCrderCustPizzaButton").addEventListener("click",() =>{
         document.getElementById("pizzaForm").style.display = "none";
     });
     document.getElementById("orderCustPizzaButton").addEventListener("click",() =>{
-        moveToCart({});//===================================================================================================================
         document.getElementById("pizzaForm").style.display = "none";
-
     });
     isClear = false;
-}
-
-const moveToCart = (itemID) => { //===================================================================================================================
-    if (itemID == Number){
-        cart.push(itemID);
-    }else{
-        customPizza.push({itemID})
-    }
 }
 
 
