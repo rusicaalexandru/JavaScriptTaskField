@@ -32,14 +32,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     await loadContent();
 
     //createCustomePizza();
-    document.getElementById("customeButton").addEventListener("click", () =>{ //temp
+    document.getElementById("customeButton").addEventListener("click", () => { //temp
         createCustomePizza();
     });
     //add to cart
     let items = document.querySelectorAll(".addToCartDBPizza");
     //console.log(items)
     items.forEach(elem => {
-        elem.addEventListener("click", (e) =>{
+        elem.addEventListener("click", (e) => {
             const nod = e.target;
             // console.log(nod.parentNode.parentNode.parentNode.id) //push pizza id
             const elem = pizzaList[nod.parentNode.parentNode.parentNode.id - 1];
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             //console.log(cart)
 
             const li = document.createElement('li');
-            li.innerHTML = `<span>${elem.name}</span>  <span>${ elem.price} $</span>`
+            li.innerHTML = `<span>${elem.name}</span>  <span>${elem.price} $</span>`
             li.style.display = 'flex'
             li.style.justifyContent = 'space-around'
             totalPrice += elem.price;
@@ -57,10 +57,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
 
     });
-    document.getElementById("htmlCART").addEventListener("click", () =>{
+    document.getElementById("htmlCART").addEventListener("click", () => {
         //show cart
         document.getElementById("cartForm").style.display = "block";
-        if (isClear2){
+        if (isClear2) {
             let buttonclose = document.createElement("button");
             let buttonOrder = document.createElement("button");
             buttonclose.id = "cancelCartPizzaButton";
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             buttonclose.innerHTML = `Cancel`;
             buttonOrder.innerHTML = `Order`;
             document.getElementById("cartForm").append(buttonOrder, buttonclose);
-            document.getElementById("orderCartPizzaButton").addEventListener("click",() => {
+            document.getElementById("orderCartPizzaButton").addEventListener("click", () => {
                 cart = [];
                 document.getElementById('cartPrice').innerText = '0'
                 totalPrice = 0;
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 document.getElementById("cartForm").style.display = "none";
 
             });
-                document.getElementById("cancelCartPizzaButton").addEventListener("click",() =>{
+            document.getElementById("cancelCartPizzaButton").addEventListener("click", () => {
                 document.getElementById("cartForm").style.display = "none";
             });
         }
@@ -112,7 +112,7 @@ const loadContent = () => {
 }
 const createCustomePizza = () => {
     document.getElementById("pizzaForm").style.display = "block";
-    if (isClear){
+    if (isClear) {
         const container = document.getElementById("pizzaUl");
         //
         ingredient(pizTipBlat, container);
@@ -146,10 +146,10 @@ const createCustomePizza = () => {
 
         container.append(price, button, buttonclose)
     }
-    document.getElementById("cancelCrderCustPizzaButton").addEventListener("click",() =>{
+    document.getElementById("cancelCrderCustPizzaButton").addEventListener("click", () => {
         document.getElementById("pizzaForm").style.display = "none";
     });
-    document.getElementById("orderCustPizzaButton").addEventListener("click",() =>{
+    document.getElementById("orderCustPizzaButton").addEventListener("click", () => {
         document.getElementById("pizzaForm").style.display = "none";
 
     });
