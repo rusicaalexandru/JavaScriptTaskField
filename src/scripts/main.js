@@ -35,9 +35,10 @@ document.addEventListener("DOMContentLoaded", () => {
         createCustomePizza();
     });
     //add to cart
-    document.getElementsByClassName("addToCartDBPizza",() => {});
+    let items = document.getElementsByClassName("addToCartDBPizza");
+
 })
-isClear = true;
+isClear = true;//to fix dublicates of ingridience on second opening of custum
 let pizzaID = 1;
 const loadContent = () => {
     const container = document.getElementById("container");
@@ -61,7 +62,6 @@ const loadContent = () => {
         `;
         pizzaID++;
         container.append(el);
-        console.log(i.pid)
     }
 }
 const createCustomePizza = () => {
@@ -110,7 +110,7 @@ const createCustomePizza = () => {
         document.getElementById("pizzaForm").style.display = "none";
 
     });
-    isClear = false;//===================================================================================================================
+    isClear = false;
 }
 
 const moveToCart = (itemID) => { //===================================================================================================================
