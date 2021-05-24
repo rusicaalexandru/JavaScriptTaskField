@@ -42,17 +42,34 @@ document.addEventListener("DOMContentLoaded", async () => {
         elem.addEventListener("click", (e) =>{
             const nod = e.target;
             // console.log(nod.parentNode.parentNode.parentNode.id) //push pizza id
-            cart.push(pizzaList[nod.parentNode.parentNode.parentNode.id-1]) //push pizza id
-            console.log(cart)
+            const elem = pizzaList[nod.parentNode.parentNode.parentNode.id - 1];
+            cart.push(elem) //push pizza id
+            //console.log(cart)
 
+            const li = document.createElement('li');
+            li.innerHTML = `<span>${elem.name}</span>  <span>${elem.price} $</span>`
+            li.style.display = 'flex'
+            li.style.justifyContent = 'space-around'
+            document.getElementById("cartList").append(li)
         });
     });
     document.getElementById("htmlCART").addEventListener("click", () =>{
-       //show cart
-        
+        //show cart
+        document.getElementById("cartForm").style.display = "block";
+        if (isClear2){
+            let buttonclose = document.createElement("button");
+            buttonclose.id = "cancelCartPizzaButton";
+            buttonclose.innerHTML = `Cancel`;
+            document.getElementById("cartForm").append(buttonclose)
+            document.getElementById("cancelCartPizzaButton").addEventListener("click",() =>{
+                document.getElementById("cartForm").style.display = "none";
+            });
+        }
+        isClear2 = false;
     });
 });
-isClear = true;//to fix dublicates of ingridience on second opening of custum
+isClear = true;
+isClear2 = true;//to fix dublicates of ingridience on second opening of custum
 let pizzaID = 1;
 const loadContent = () => {
     const container = document.getElementById("container");
@@ -119,6 +136,7 @@ const createCustomePizza = () => {
     });
     document.getElementById("orderCustPizzaButton").addEventListener("click",() =>{
         document.getElementById("pizzaForm").style.display = "none";
+
     });
     isClear = false;
 }

@@ -52,7 +52,7 @@ body{
 h4{
     background: bisque;
 }
-#pizzaForm{
+#pizzaForm, #cartForm{
     display: none;
 
     overflow: hidden;
