@@ -26,7 +26,7 @@ let pizSize = [
     {name: "normală ", price: 30},
     {name: "maxi ", price: 40}
 ];
-let customPizza = [{}];
+let totalPrice = 0;
 let cart = [];//===================================================================================================================
 document.addEventListener("DOMContentLoaded", async () => {
     await loadContent();
@@ -47,21 +47,36 @@ document.addEventListener("DOMContentLoaded", async () => {
             //console.log(cart)
 
             const li = document.createElement('li');
-            li.innerHTML = `<span>${elem.name}</span>  <span>${elem.price} $</span>`
+            li.innerHTML = `<span>${elem.name}</span>  <span>${ elem.price} $</span>`
             li.style.display = 'flex'
             li.style.justifyContent = 'space-around'
+            totalPrice += elem.price;
+            document.getElementById('cartPrice').innerText = totalPrice
             document.getElementById("cartList").append(li)
+
         });
+
     });
     document.getElementById("htmlCART").addEventListener("click", () =>{
         //show cart
         document.getElementById("cartForm").style.display = "block";
         if (isClear2){
             let buttonclose = document.createElement("button");
+            let buttonOrder = document.createElement("button");
             buttonclose.id = "cancelCartPizzaButton";
+            buttonOrder.id = "orderCartPizzaButton";
             buttonclose.innerHTML = `Cancel`;
-            document.getElementById("cartForm").append(buttonclose)
-            document.getElementById("cancelCartPizzaButton").addEventListener("click",() =>{
+            buttonOrder.innerHTML = `Order`;
+            document.getElementById("cartForm").append(buttonOrder, buttonclose);
+            document.getElementById("orderCartPizzaButton").addEventListener("click",() => {
+                cart = [];
+                document.getElementById('cartPrice').innerText = '0'
+                totalPrice = 0;
+                document.getElementById("cartList").innerHTML = ''
+                document.getElementById("cartForm").style.display = "none";
+
+            });
+                document.getElementById("cancelCartPizzaButton").addEventListener("click",() =>{
                 document.getElementById("cartForm").style.display = "none";
             });
         }
